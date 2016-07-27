@@ -1,0 +1,236 @@
+
+
+.side {
+    background: #000F22;
+
+}
+
+* {
+  color:#FFF;
+  font-family: Tahoma,monospace;
+  
+}
+
+#header {
+    background: transparent;
+    height: 230px;
+
+ background:url(%%finalmaybe%%)
+no-repeat center center
+
+} 
+
+#header .tabmenu li a {  
+ background-color: #000F22;  
+}
+
+#header-bottom-right {  
+ background-color: transparent;  
+} 
+
+#header-bottom-right > *, #header-bottom-right .user a, #header-bottom-right .user span a, #header-bottom-right .flat-list li a, #header-bottom-right form a {  
+ color: #FFF !important;  
+}
+
+
+.link{
+    border: 5px outset cyan;
+    border-radius : 5px 15px;
+    background-color: #000F22;
+    padding: 10px 10px 10px 10px;
+}
+.thing a {
+    color: #FFF;
+}
+.thing a:visited {
+    color: #BEBEBE;
+}
+div.content #siteTable div.link div.entry p.title a.title {
+    color: #FFF;
+}
+a:visited, a:active, div.content #siteTable div.link div.entry p.title a.title:visited, div.content #siteTable div.link div.entry p.title a.title:active {
+
+}
+a.title:visited{
+    color: #BEBEBE !important;
+}
+
+.link, .nestedlisting > .comment { 
+margin-right: 340px; 
+margin-left:20px;
+margin-bottom:10px;
+width: calc(100% - 360px); 
+}  
+
+body{
+/* background: url(%%bgSeemless%%); */
+background: -moz-linear-gradient(left, rgba(0,34,68,1) 0%, rgba(0,15,34,1) 50%, rgba(0,34,68,1) 100%);
+
+background: -o-linear-gradient(left, rgba(0,34,68,1) -20%, rgba(0,15,34,1) 50%, rgba(0,34,68,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,34,68,1) -20%, rgba(0,15,34,1) 50%, rgba(0,34,68,1) 100%);
+background: linear-gradient(to right, rgba(0,34,68,1) -20%, rgba(0,15,34,1) 50%, rgba(0,34,68,1) 100%);
+
+color: #000;
+}
+
+div.RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+    background-color: transparent !important;
+}
+
+
+.pagename a
+{
+
+position: absolute;
+bottom: 0;
+height:200px!important;
+width: 100%!important;
+left: -5px;
+float: left;
+z-index: 0;
+}
+
+.redditname a
+{
+text-indent: -9000px;
+color : #FFF;
+}
+.md-container {
+    border : 1px outset #000;
+    border-radius : 2px 10px;
+}
+.thing p{
+    color : #000;
+}
+.tabmenu 
+{
+display: inline;
+float: left;
+}
+
+#header-bottom-left
+{
+height: 200px;
+
+}
+
+#header-bottom-left .tabmenu
+{
+position:absolute;
+left: 110px;
+bottom: 0;
+display: inline;
+}
+
+#header-img {
+position: absolute;
+bottom: 0;
+z-index: 1;
+
+
+}
+#siteTable a.title {
+    color: #FFF;
+}
+#siteTable a.title:visited {
+    color: #BEBEBE;
+}
+
+.subscribers .word, .users-online .word{
+display:none;
+}
+.subscribers .number:after { 
+content: " Explorers"
+}
+.users-online .number:after { 
+content: " Exploring" 
+}
+
+/*
+.arrow.down {
+visibility: hidden;
+display: none
+}
+
+
+.comment .arrow.down {
+visibility: visible;
+display: block
+}
+*/
+
+.linkflairlabel {
+    font-weight: bold;
+    color: #FFF;
+    border: 1px solid: #000;
+    border-radius: 1px;
+    font-size: 15px;
+
+}
+
+.linkflair-win1064 .linkflairlabel {
+    background-color: #356A22;
+
+}
+
+.linkflair-win1032 .linkflairlabel {
+    background-color: #429026;
+
+}
+
+.linkflair-win864 .linkflairlabel {
+    background-color: #1D5B32;
+
+}
+
+.linkflair-win832 .linkflairlabel {
+    background-color: #207B3F;
+
+}
+
+.linkflair-win764 .linkflairlabel {
+    background-color: #4E7124;
+
+}
+
+.linkflair-win732 .linkflairlabel {
+    background-color: #669928;
+
+}
+
+
+.linkflair-osx64 .linkflairlabel {
+    background-color: #447AEC;
+}
+
+.linkflair-osx32 .linkflairlabel {
+    background-color: #6DB2FF;
+}
+
+.linkflair-linux64 .linkflairlabel {
+    background-color: #CD6600;
+}
+
+.linkflair-linux32 .linkflairlabel {
+    background-color: #D87E25;
+}
+
+.linkflair-ore .linkflairlabel {
+    background-color: #B71F62;
+}
+
+.linkflair-structure .linkflairlabel {
+    background-color: #B15A80;
+}
+
+.linkflair-life .linkflairlabel {
+    background-color: #A11B7C;
+}
+
+.linkflair-biome .linkflairlabel {
+    background-color: #9C4F87;
+}
+
+.linkflair-misc .linkflairlabel {
+    background-color: #C92243;
+}
