@@ -74,7 +74,7 @@ a.title:visited {
 }
 body {
     /* background: url(%%bgSeemless%%); */
-    
+
     background: -moz-linear-gradient(left, rgba(0, 34, 68, 1) 0%, rgba(0, 15, 34, 1) 50%, rgba(0, 34, 68, 1) 100%);
     background: -o-linear-gradient(left, rgba(0, 34, 68, 1) -20%, rgba(0, 15, 34, 1) 50%, rgba(0, 34, 68, 1) 100%);
     background: -ms-linear-gradient(left, rgba(0, 34, 68, 1) -20%, rgba(0, 15, 34, 1) 50%, rgba(0, 34, 68, 1) 100%);
@@ -163,6 +163,7 @@ display: block
     border: 1px solid #000;
     border-radius: 1px;
     font-size: 15px;
+    padding: 2px 10px;
 }
 .linkflair-win1064 .linkflairlabel {
     background-color: #356A22;
@@ -208,4 +209,78 @@ display: block
 }
 .linkflair-misc .linkflairlabel {
     background-color: #C92243;
+}
+
+.submit-page a[href*='#tag-'] {
+    font-weight: bold;
+    color: #FFF;
+    border: 1px solid #000;
+    border-radius: 1px;
+    font-size: 15px;
+    vertical-align: middle;
+    position: relative;
+    white-space: nowrap;
+    overflow: visible;
+    max-width: none;
+    min-width: 92px;
+    text-align: center;
+    padding: 2px 10px;
+}
+
+.submit-page a[href*='#tag-win1064'] {
+    background-color: #429026;
+}
+
+.submit-page a[href*='#tag-win1032'] {
+    background-color: #429026;
+}
+.submit-page a[href*='#tag-win864'] {
+    background-color: #1D5B32;
+}
+.submit-page a[href*='#tag-win832'] {
+    background-color: #207B3F;
+}
+.submit-page a[href*='#tag-win764'] {
+    background-color: #4E7124;
+}
+.submit-page a[href*='#tag-win732'] {
+    background-color: #669928;
+}
+.submit-page a[href*='#tag-osx64'] {
+    background-color: #447AEC;
+}
+.submit-page a[href*='#tag-osx32'] {
+    background-color: #6DB2FF;
+}
+.submit-page a[href*='#tag-linux64'] {
+    background-color: #CD6600;
+}
+.submit-page a[href*='#tag-linux32'] {
+    background-color: #D87E25;
+}
+.submit-page a[href*='#tag-ore'] {
+    background-color: #B71F62;
+}
+.submit-page a[href*='#tag-structure'] {
+    background-color: #B15A80;
+}
+.submit-page a[href*='#tag-life'] {
+    background-color: #A11B7C;
+}
+.submit-page a[href*='#tag-biome'] {
+    background-color: #9C4F87;
+}
+.submit-page a[href*='#tag-misc'] {
+    background-color: #C92243;
+}
+
+.submit-page .formtabs-content .infobar {
+    height: 160px;
+}
+.submit_text.enabled {
+    position: absolute;
+    top: 300px;
+}
+.submit-page a[href*='#tag-'] {
+    -webkit-text-size-adjust: 100%;
 }
