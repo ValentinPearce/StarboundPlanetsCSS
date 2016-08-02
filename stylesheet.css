@@ -158,7 +158,8 @@ display: block
 */
 
 .linkflairlabel,
-.submit-page a[href*='#tag-']{
+.submit-page a[href*='#tag-'],
+.side a[href*='#tag-']{
     font-weight: bold;
 
     border-radius: 2px;
@@ -180,112 +181,56 @@ display: block
     padding: 5px 15px;
 }
 
-.linkflair-win1064 .linkflairlabel {
+.linkflair-win1064 .linkflairlabel,.submit-page a[href*='#tag-win1064'],.side a[href*='#tag-win1064'] {
     background-color: #356A22;
 }
-.linkflair-win1032 .linkflairlabel {
+.linkflair-win1032 .linkflairlabel,.submit-page a[href*='#tag-win1032'],.side a[href*='#tag-win1032']  {
     background-color: #429026;
 }
-.linkflair-win864 .linkflairlabel {
+.linkflair-win864 .linkflairlabel, .submit-page a[href*='#tag-win864'], .side a[href*='#tag-win864']  {
     background-color: #1D5B32;
 }
-.linkflair-win832 .linkflairlabel {
+.linkflair-win832 .linkflairlabel,.submit-page a[href*='#tag-win832'],.side a[href*='#tag-win832'] {
     background-color: #207B3F;
 }
-.linkflair-win764 .linkflairlabel {
+.linkflair-win764 .linkflairlabel, .submit-page a[href*='#tag-win764'], .side a[href*='#tag-win764']  {
     background-color: #4E7124;
 }
-.linkflair-win732 .linkflairlabel {
+.linkflair-win732 .linkflairlabel, .submit-page a[href*='#tag-win732'], .side a[href*='#tag-win732']  {
     background-color: #669928;
 }
-.linkflair-osx64 .linkflairlabel {
+.linkflair-osx64 .linkflairlabel, .submit-page a[href*='#tag-osx64'], .side a[href*='#tag-osx64']  {
     background-color: #447AEC;
 }
-.linkflair-osx32 .linkflairlabel {
+.linkflair-osx32 .linkflairlabel, .submit-page a[href*='#tag-osx32'], .side a[href*='#tag-osx32'] {
     background-color: #6DB2FF;
 }
-.linkflair-linux64 .linkflairlabel {
+.linkflair-linux64 .linkflairlabel, .submit-page a[href*='#tag-linux64'], .side a[href*='#tag-linux64']  {
     background-color: #CD6600;
 }
-.linkflair-linux32 .linkflairlabel {
+.linkflair-linux32 .linkflairlabel, .submit-page a[href*='#tag-linux32'], .side a[href*='#tag-linux32']  {
     background-color: #D87E25;
 }
-.linkflair-ore .linkflairlabel {
+.linkflair-ore .linkflairlabel, .submit-page a[href*='#tag-ore'], .side a[href*='#tag-ore']  {
     background-color: #B71F62;
 }
-.linkflair-structure .linkflairlabel {
+.linkflair-structure .linkflairlabel, .submit-page a[href*='#tag-structure'] , .side a[href*='#tag-structure']  {
     background-color: #B15A80;
 }
-.linkflair-life .linkflairlabel {
+.linkflair-life .linkflairlabel, .submit-page a[href*='#tag-life'], .side a[href*='#tag-life']  {
     background-color: #A11B7C;
 }
-.linkflair-biome .linkflairlabel {
+.linkflair-biome .linkflairlabel, .submit-page a[href*='#tag-biome'], .side a[href*='#tag-biome']  {
     background-color: #9C4F87;
 }
-.linkflair-misc .linkflairlabel {
+.linkflair-misc .linkflairlabel, .submit-page a[href*='#tag-misc'], .side a[href*='#tag-misc']  {
     background-color: #C92243;
 }
 
-
-
-.submit-page a[href*='#tag-win1064'] {
-    background-color: #429026;
+.roundfield {
+    background-color : transparent;
 }
 
-.submit-page a[href*='#tag-win1032'] {
-    background-color: #429026;
-}
-.submit-page a[href*='#tag-win864'] {
-    background-color: #1D5B32;
-}
-.submit-page a[href*='#tag-win832'] {
-    background-color: #207B3F;
-}
-.submit-page a[href*='#tag-win764'] {
-    background-color: #4E7124;
-}
-.submit-page a[href*='#tag-win732'] {
-    background-color: #669928;
-}
-.submit-page a[href*='#tag-osx64'] {
-    background-color: #447AEC;
-}
-.submit-page a[href*='#tag-osx32'] {
-    background-color: #6DB2FF;
-}
-.submit-page a[href*='#tag-linux64'] {
-    background-color: #CD6600;
-}
-.submit-page a[href*='#tag-linux32'] {
-    background-color: #D87E25;
-}
-.submit-page a[href*='#tag-ore'] {
-    background-color: #B71F62;
-}
-.submit-page a[href*='#tag-structure'] {
-    background-color: #B15A80;
-}
-.submit-page a[href*='#tag-life'] {
-    background-color: #A11B7C;
-}
-.submit-page a[href*='#tag-biome'] {
-    background-color: #9C4F87;
-}
-.submit-page a[href*='#tag-misc'] {
-    background-color: #C92243;
-}
-
-.submit-page .formtabs-content .infobar {
-    height: 200px;
-}
-.submit_text.enabled {
-    position: absolute;
-    top: 600px;
-}
-.submit-page a[href*='#tag-'] {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
-.infobar {
-    background-color : #000122;
+#text-desc {
+    background-color: transparent;
 }
